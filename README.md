@@ -134,16 +134,16 @@ financial_api_bank /
 
 ## Endpoints Disponíveis
 
-1. **GET /bank**
+1. **GET /category**
    - Lista todos os registros do banco de dados.
 
-2. **POST /bank**
+2. **POST /category**
    - Cria um novo registro no banco de dados.
 
-3. **PUT /bank**
+3. **PUT /category**
    - Atualiza um registro existente.
 
-4. **DELETE /bank**
+4. **DELETE /category**
    - Remove um registro do banco.
 
 ---
