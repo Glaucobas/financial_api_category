@@ -7,6 +7,7 @@ O objetivo da construção desta API é modularizar o projeto, dividindo a aplic
 ## Estrutura do Projeto
 
 - **app.py**: Arquivo principal para execução da API.
+- **database/**: Contém as tabelas do banco de dados.
 - **models/**: Contém as definições das tabelas e a configuração do banco de dados.
 - **schema/**: Define os esquema dos dados.
 - **requirements.txt**: Lista de dependências necessárias para executar a aplicação.
@@ -113,7 +114,7 @@ http://127.0.0.1:5000
 
 Abaixo está a estrutura básica do projeto:
 ```
-financial_api_bank /
+financial_api_category /
 ├── app.py               # Arquivo principal
 ├── database/            # Pasta do Banco de dados
 │   ├── db.sqlite3       # Banco de dados
