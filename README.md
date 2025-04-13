@@ -105,7 +105,7 @@ docker ps
 ### **5. Acessar a API no Docker**
 Com o container rodando, a API estará disponível no mesmo endereço:
 ```
-http://127.0.0.1:5000
+http://127.0.0.1:5001
 ```
 
 ---
