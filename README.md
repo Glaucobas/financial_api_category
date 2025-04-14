@@ -1,4 +1,4 @@
-# API Category
+# API
 
 O objetivo da construção desta API é modularizar o projeto, dividindo a aplicação em microserviços. Cada microserviço é capaz de trabalhar de forma independente com suas requisições. A API possui um banco de dados próprio (SQLite) e gerencia todas as operações de gravação, atualização e remoção de dados.
 
@@ -7,7 +7,6 @@ O objetivo da construção desta API é modularizar o projeto, dividindo a aplic
 ## Estrutura do Projeto
 
 - **app.py**: Arquivo principal para execução da API.
-- **database/**: Contém as tabelas do banco de dados.
 - **models/**: Contém as definições das tabelas e a configuração do banco de dados.
 - **schema/**: Define os esquema dos dados.
 - **requirements.txt**: Lista de dependências necessárias para executar a aplicação.
@@ -69,12 +68,12 @@ pip install -r requirements.txt
 ### **6. Executar a API**
 Após instalar as dependências, execute a aplicação:
 ```bash
-flask run --host 0.0.0.0 --port 5000 --reload
+flask run --host 0.0.0.0 --port 5001 --reload
 ```
 
 Se tudo estiver configurado corretamente, a API será inicializada e estará acessível no endereço:
 ```
-http://127.0.0.1:5000
+http://127.0.0.1:5001
 ```
 
 ---
@@ -93,7 +92,7 @@ docker build -t financial_api_category .
 ### **3. Executar o Container**
 Para rodar o container criado:
 ```bash
-docker run -d -p 5001:5000 --name financial_api_category financial_api_category
+docker run -d -p 5001:5001 --name financial_api_category financial_api_category
 ```
 
 ### **4. Verificar o Status do Container**
@@ -114,7 +113,7 @@ http://127.0.0.1:5001
 
 Abaixo está a estrutura básica do projeto:
 ```
-financial_api_category /
+financial_api_bank /
 ├── app.py               # Arquivo principal
 ├── database/            # Pasta do Banco de dados
 │   └── db.sqlite3       # Banco de dados
